@@ -19,7 +19,7 @@ showChat.addEventListener("click", () => {
   document.querySelector(".header__back").style.display = "block";
 });
 
-const user = prompt("Enter your name");
+const user = prompt("Впишите своё имя");
 
 var peer = new Peer(undefined, {
   path: "/peerjs",
@@ -123,7 +123,7 @@ stopVideo.addEventListener("click", () => {
 
 inviteButton.addEventListener("click", (e) => {
   prompt(
-    "Copy this link and send it to people you want to meet with",
+    "Скопируйте эту ссылку и отправьте ее людям, с которыми вы хотите созвониться",
     window.location.href
   );
 });
